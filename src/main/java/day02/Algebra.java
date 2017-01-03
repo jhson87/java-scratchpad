@@ -9,9 +9,9 @@ public class Algebra {
         return a - b;
     }
 
-    public int add(int m2, int n2)
+    public int add(int c, int d)
     {
-        return m2 + n2;
+        return c + d;
     }
 
 }
