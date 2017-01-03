@@ -9,4 +9,8 @@ public class Algebra {
         return a - b;
     }
 
+    public int sub2(int m, int n)
+    {
+        return m - n;
+    }
 }
