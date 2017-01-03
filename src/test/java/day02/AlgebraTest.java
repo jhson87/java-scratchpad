@@ -18,6 +18,11 @@ public class AlgebraTest {
         assertThat("3 - 1 = 2", algebra.sub(3, 1), is(equalTo(2)));
     }
 
+    @Test
+    public void addTest(){
+        Algebra algebra = new Algebra();
 
+        assertThat("3 + 1 = 4", algebra.add(3, 1), is(equalTo(4)));
+    }
 
 }
